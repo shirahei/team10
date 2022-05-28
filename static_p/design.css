@@ -14,6 +14,7 @@ div {
     'Nav Main Main';
 }
 
+
 #item1 {
     grid-area: Header;
     font-size:100px;
