@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="../static_p/desien_rotem.css">
+  <link rel="stylesheet" href="../static_p/desien.css">
   <script defer src="../static_p/ActiveNavBar.js"></script>
   <title>search</title>
 </head>
@@ -31,19 +31,16 @@
 
         <select data-trigger="" name="choices-single-defaul">
           <option placeholder="" value="">Category</option>
-          <option>א'</option>
-          <option>ב'</option>
+          <option>Furniture</option>
+          <option>Kitchenware</option>
+		  <option>Tools</option>
+		  <option>Appliances</option>
         </select>
 
       </div>
 
       <div id="item2">
 
-        <select data-trigger="" name="choices-single-defaul">
-          <option placeholder="" value="">Sub - Category</option>
-          <option>א'</option>
-          <option>ב'</option>
-        </select>
 
         <div id="item3">
           <select data-trigger="" name="choices-single-defaul">
@@ -58,14 +55,16 @@
       <input id="item5" type="submit" value="Submit" class="submitButton">
     </form>
 
+
     <button class="open-button" onclick="openForm()">Chat</button>
-    <div class="chat-popup" id="msyForm">
+
+    <div class="chat-popup" id="myForm">
       <form action="home.html" class="form-container">
         <h1>Chat</h1>
-
+    
         <label for="msg"><b>Message</b></label>
         <textarea placeholder="Type message.." name="msg" required></textarea>
-
+    
         <button type="submit" class="btn">Send</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>

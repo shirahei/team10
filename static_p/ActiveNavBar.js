@@ -18,16 +18,7 @@ const links = document.querySelectorAll('nav a').forEach(link => {
     link.classList.add('active');
   }
 });
-function main() {
 
-  function openForm() {
-    document.getElementById("myForm").style.display = "block";
-  }
-
-  function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  }
-}
 
 var check = function() {
   if (document.getElementById('password').value ==
@@ -63,4 +54,11 @@ var checkNumbers = function(){
     return false;
   }
 
+}
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }
