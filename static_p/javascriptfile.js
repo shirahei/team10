@@ -1,4 +1,3 @@
-window.addEventListener('load', main);
 
 //print date to log
 const d = Date();
@@ -25,11 +24,11 @@ var check = function() {
     document.getElementById('confirm_password').value) {
     document.getElementById('message').style.fontSize = 'large';
     document.getElementById('message').style.color = 'green';
-    document.getElementById('message').innerHTML = 'Passwords are matching';
+    document.getElementById('message').innerHTML ='Passwords are matching';
   } else {
     document.getElementById('message').style.fontSize = 'large';
     document.getElementById('message').style.color = 'red';
-    document.getElementById('message').innerHTML = 'Passwords are not matching';
+    document.getElementById('message').innerHTML ='Passwords are not matching';
   }
 
 }
